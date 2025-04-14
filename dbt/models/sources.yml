@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: f1_data
+    database: vigilant-cider-447718-n5
+    schema: f1_data
+    tables:
+      - name: races
+      - name: results
+      - name: drivers
+      - name: constructors
+      - name: circuits
+      - name: driver_standings
+      - name: constructor_standings
+      - name: lap_times
+      - name: pit_stops
+      - name: qualifying
+      - name: constructor_results
+      - name: sprint_results
+      - name: seasons
+      - name: status
+  - name: f1_optimized
+    database: vigilant-cider-447718-n5
+    schema: f1_data_optimized
+    tables:
+      - name: opt_races
+      - name: opt_results
+      - name: opt_drivers
+      - name: opt_constructors
+      - name: opt_circuits
+      - name: opt_driver_standings
+      - name: opt_constructor_standings
+      - name: opt_lap_times
+      - name: opt_pit_stops
+      - name: opt_qualifying
+      - name: opt_constructor_results
+      - name: opt_sprint_results
+      - name: opt_seasons
+      - name: opt_status

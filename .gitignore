@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+data/
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+f1-terraform-key.json
+.DS_Store
+venv/
+logs/
+terraform/terraform.tfstate
+terraform/terraform.tfvars
+terraform/.terraform/

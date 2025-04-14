@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_races
+    columns:
+      - name: race_id
+        tests:
+          - unique
+          - not_null
+  - name: stg_results
+    columns:
+      - name: result_id
+        tests:
+          - unique
+          - not_null
+  - name: stg_pit_stops
+    columns:
+      - name: race_id
+        tests:
+          - not_null
+      - name: driver_id
+        tests:
+          - not_null
+  - name: stg_drivers
+    columns:
+      - name: driver_id
+        tests:
+          - unique
+          - not_null
+  - name: stg_constructors
+    columns:
+      - name: constructor_id
+        tests:
+          - unique
+          - not_null
